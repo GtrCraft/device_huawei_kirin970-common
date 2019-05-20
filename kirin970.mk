@@ -32,8 +32,7 @@ PRODUCT_PACKAGES += \
     bfm-ctl
 
 # Camera
-PRODUCT_PACKAGES += \
-    Camera2
+$(call inherit-product, vendor/huawei/HwCamera2/config.mk)
 
 # Device init scripts
 PRODUCT_PACKAGES += \
